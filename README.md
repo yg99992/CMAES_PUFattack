@@ -1,7 +1,8 @@
-# Using CMA-ES to attack the Arbiter PUF variants
+# Using CMA-ES to attack the Arbiter PUF and its variants
+# 使用CMA-ES算法攻击Arbiter PUF及其变体
 
 ## 前言
-> Arbiter-PUF(APUF)是最早提出的一种基于延时的物理不可克隆电路(PUF)。由于其简单的线性结构，APUF很容易被机器学习的算法攻击。CMA-ES算法是PUF的主流攻击算法之一。该算法可以根据PUF结构自定义适应度(fitness)函数，从而达到较高的预测准确率。本篇文章将使用Python的CMA-ES算法库对APUF及改进的XOR PUF的输出进行预测。
+Arbiter-PUF(APUF)是最早提出的一种基于延时的物理不可克隆电路(PUF)。由于其简单的线性结构，APUF很容易被机器学习的算法攻击。CMA-ES算法是PUF的主流攻击算法之一。该算法可以根据PUF结构自定义适应度(fitness)函数，从而达到较高的预测准确率。本篇文章将使用Python的CMA-ES算法库对APUF及改进的XOR PUF的输出进行预测。
 
 ## Arbiter-PUF结构
 
@@ -261,8 +262,8 @@ The CMA-ES attack method described in this technical document has been applied i
 C. Xu, L. Zhang, M. -K. Law, X. Zhao, P. -I. Mak and R. P. Martins, "Modeling Attack Resistant Strong PUF Exploiting Stagewise Obfuscated Interconnections With Improved Reliability," in IEEE Internet of Things Journal, doi: 10.1109/JIOT.2023.3267657.
 ```
 
-```latex
 BIBTEX file:
+```latex
 @ARTICLE{Xu2022_OIPUF,
   author={Xu, Chongyao and Zhang, Litao and Law, Man-Kay and Zhao, Xiaojin and Mak, Pui-In and Martins, Rui P.},
   journal={IEEE Internet of Things Journal}, 
