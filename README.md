@@ -252,7 +252,8 @@ Even for the 3-XOR PUF, we can still achieve 98.9% accuracy using 50000 training
 
 
 ## 写在最后
-自己一直想把CMA-ES预测PUF的程序移植到Python上，看了几天cma库的源码，终于找到了解决办法。如今分享出来，希望能为PUF领域相关科研人员提供帮助，以节省宝贵的科研时间。
+
+自己一直想把CMA-ES预测PUF的程序移植到Python上，看了几天cma库的源码，终于找到了解决方法h。如今分享出来，希望能为PUF领域相关科研人员提供帮助，以节省宝贵的科研时间。
 
 这篇技术文档所阐述的CMA-ES攻击方法已被应用在了我们最新的研究工作中，如果此文对您有所帮助，请在您的著作中引用我们的如下研究成果：
 
@@ -276,7 +277,8 @@ BIBTEX file:
   }
 ```
 
-**完整代码 Complete code**
+## 完整代码 Complete code
+
 ```python
 import numpy as np
 from cma import CMAEvolutionStrategy
